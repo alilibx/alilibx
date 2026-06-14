@@ -46,6 +46,10 @@ CoT variations:
 **Reduce bias:** ask for both sides → "Give the strongest case for AND against."
 Avoid leading prompts ("Why is X best?" → "**Is** X best? Compare alternatives.").
 
+**⚖️ Ethics in one line:** *You own the output, not the model.* Don't paste
+secrets/personal data; use AI to learn & draft (not to submit what you can't
+explain); verify facts, citations, and code before you ship.
+
 ---
 
 ## 4. Task Automation

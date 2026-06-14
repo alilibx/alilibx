@@ -21,12 +21,12 @@ Ali Alhashimi — AI Solutions Architect
 
 ---
 
-## Today in 2 hours
+## Agenda
 
-1. **The Perfect Prompt** — a structure you'll never forget
-2. **Pro Frameworks** — Role-Task-Format & Chain-of-Thought
-3. **High Accuracy** — kill hallucinations & bias
-4. **Task Automation** — get your time back
+1. **The Evolution of Generative AI**
+2. **The Anatomy of an Effective Prompt**
+3. **Advanced Prompting Patterns & Logic**
+4. **Ethics, Accuracy, and Practical Application**
 
 ➡️ 90 min learning + practice, then **30 min open Q&A**
 
@@ -43,8 +43,44 @@ Ali Alhashimi — AI Solutions Architect
 
 ---
 
-# Part 0
-## Why prompting matters
+# Agenda 1
+## The Evolution of Generative AI
+
+---
+
+## From rules to reasoning — a 70-year sprint
+
+- **1950s–80s · Rule-based AI** — humans hand-code every "if-then." Brittle.
+- **1990s–2000s · Machine learning** — systems *learn patterns* from data.
+- **2012 · Deep learning** — neural nets crack images and speech.
+- **2017 · The Transformer** — "Attention Is All You Need." The unlock.
+- **2018–2022 · Large Language Models** — GPT, BERT scale up; language clicks.
+- **2022 → now · Generative AI for everyone** — ChatGPT, Claude, Gemini;
+  text, code, images, audio, agents.
+
+<!-- Keep it fast — this is the "how we got here" arc, not a history lecture. The point: capability exploded, so the skill of *directing* it is now the differentiator. -->
+
+---
+
+## What changed: we stopped programming, started *instructing*
+
+- Old world: tell the computer **exactly how** (code every step).
+- New world: tell the model **what you want** — in plain language.
+
+➡️ The interface to this power is **natural language**.
+➡️ So your results depend on **how well you ask**. That's prompt engineering.
+
+---
+
+## What "generative" actually means
+
+These models **predict the next token** (word-piece) from everything before it.
+
+- 🟢 Strength: fluent, flexible, creative, fast.
+- 🔴 Catch: "plausible" is the goal — **not "true."**
+
+This single fact explains both the magic *and* the hallucinations
+we'll tame later today.
 
 ---
 
@@ -73,8 +109,9 @@ Vague direction → vague work. Precise direction → useful work.
 
 ---
 
-# Module 1
-## The Perfect Prompt: **C·T·C·F**
+# Agenda 2
+## The Anatomy of an Effective Prompt
+### The **C·T·C·F** structure
 
 ---
 
@@ -129,12 +166,12 @@ Then run it. Share your improved version in chat.
 
 ---
 
-# Module 2
-## Pro Frameworks
+# Agenda 3
+## Advanced Prompting Patterns & Logic
 
 ---
 
-## Framework 1 — Role · Task · Format (RTF)
+## Pattern 1 — Role · Task · Format (RTF)
 
 Assign the model an **expert role** to shift its tone and depth.
 
@@ -160,7 +197,7 @@ Assign the model an **expert role** to shift its tone and depth.
 
 ---
 
-## Framework 2 — Chain-of-Thought (CoT)
+## Pattern 2 — Chain-of-Thought (CoT)
 
 For **reasoning, math, logic, multi-step** problems:
 
@@ -195,8 +232,14 @@ Notice: how did the role or CoT change the answer?
 
 ---
 
-# Module 3
-## High Accuracy
+# Agenda 4
+## Ethics, Accuracy & Practical Application
+
+<!-- This block has three movements: (a) accuracy/anti-hallucination, (b) ethics & responsible use, (c) putting it to work / automation. -->
+
+---
+
+## Part A — Accuracy
 ### Killing hallucinations & bias
 
 ---
@@ -266,6 +309,31 @@ Run a second prompt on the model's own output:
 
 ---
 
+## Part B — Ethics & responsible use
+
+- 🔒 **Privacy** — don't paste secrets, personal, or proprietary data into
+  consumer tools. Assume what you paste may leave your control.
+- 🎓 **Academic & professional integrity** — use AI to *learn and draft*, not to
+  submit work you can't explain. Follow your institution's/employer's policy.
+- 📚 **Attribution & verification** — you own the output. Check facts, citations,
+  and code before you ship or submit.
+- ⚖️ **Bias awareness** — training data carries human bias; question confident
+  claims about people, groups, and "best" choices.
+
+<!-- Frame ethics as part of being a good engineer, not a compliance checkbox. -->
+
+---
+
+## The one rule that covers most of it
+
+> **You are accountable for what you do with the output — not the model.**
+
+Treat AI as a brilliant, fast, occasionally-wrong intern:
+delegate generously, **verify before you trust**, and keep the final
+judgment yours.
+
+---
+
 ## 🧪 Exercise 3 — Trust but verify (10 min)
 
 1. Paste a short paragraph (notes, an abstract, an email).
@@ -276,9 +344,8 @@ Did it stop making things up?
 
 ---
 
-# Module 4
-## Task Automation
-### Get your time back
+# Part C — Practical Application
+## Task Automation: get your time back
 
 ---
 
@@ -345,13 +412,13 @@ Save it. You'll use it tomorrow.
 
 ## The whole workshop on one slide
 
-- **CTCF** — Context · Task · Constraints · Format
-- **RTF** — give it an expert Role
-- **Chain-of-Thought** — "think step by step"
-- **Ground + exit + cite + self-critique** — accuracy
-- **Templates + few-shot + structured output** — automation
+- **Evolution** — we moved from *programming* to *instructing* in plain language
+- **Anatomy: CTCF** — Context · Task · Constraints · Format
+- **Patterns: RTF + Chain-of-Thought** — expert role + "think step by step"
+- **Ethics & Accuracy** — ground, cite, self-critique; verify before you trust
+- **Practical: templates + few-shot + structured output** — automation
 
-🎯 *If output is wrong, a block was missing.*
+🎯 *If output is wrong, a block was missing. You own the output, not the model.*
 
 ---
 

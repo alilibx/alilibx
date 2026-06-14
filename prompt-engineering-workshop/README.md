@@ -8,6 +8,15 @@ chatbot" to **engineering reliable prompts** for real academic and technical wor
 
 ---
 
+## 📋 Agenda
+
+1. **The Evolution of Generative AI**
+2. **The Anatomy of an Effective Prompt**
+3. **Advanced Prompting Patterns & Logic**
+4. **Ethics, Accuracy, and Practical Application**
+
+---
+
 ## 🎯 Learning Objectives
 
 By the end of this workshop, participants will be able to:
@@ -40,13 +49,13 @@ By the end of this workshop, participants will be able to:
 
 ### Part 1 — Teaching + Practice (90 min)
 
-| Time | Block | Format |
+| Time | Agenda Block | Format |
 |------|-------|--------|
-| 0:00–0:10 | **Welcome & Why Prompting Matters** | Talk + live poll |
-| 0:10–0:30 | **Module 1 — The Perfect Prompt (CTCF)** | Mini-talk (10) + Exercise (10) |
-| 0:30–0:52 | **Module 2 — Pro Frameworks (RTF + Chain-of-Thought)** | Mini-talk (12) + Exercise (10) |
-| 0:52–1:14 | **Module 3 — High Accuracy (anti-hallucination)** | Mini-talk (12) + Exercise (10) |
-| 1:14–1:30 | **Module 4 — Task Automation** | Mini-talk (8) + Exercise (8) |
+| 0:00–0:05 | **Welcome & live poll** | Talk |
+| 0:05–0:18 | **1. The Evolution of Generative AI** | Mini-talk + hook demo |
+| 0:18–0:42 | **2. The Anatomy of an Effective Prompt** (CTCF) | Mini-talk (12) + Exercise (12) |
+| 0:42–1:06 | **3. Advanced Prompting Patterns & Logic** (RTF + Chain-of-Thought) | Mini-talk (12) + Exercise (12) |
+| 1:06–1:30 | **4. Ethics, Accuracy & Practical Application** | Mini-talk (14) + Exercise (10) |
 
 > Each module = **short presentation → live demo → participants try it → 1–2 share results.**
 
