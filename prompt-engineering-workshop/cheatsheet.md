@@ -103,6 +103,76 @@ Summarize the text for [audience]. Give: 3-sentence TL;DR,
 
 ---
 
+## 🎬 Live Demo Bank — paste these & show the result
+
+> Every example used in the slides/exercises, with the **expected outcome** so you
+> can run them live with confidence. ❌ = run first (weak), ✅ = run second (strong).
+
+**① The hook — same model, different prompt** *(Evolution)*
+```
+❌  write something about climate
+✅  You are an environmental science tutor. Write a 150-word explainer on
+    how rising temperatures affect the Nile's water supply, for a first-year
+    engineering student. Use a numbered list of 3 mechanisms. Plain English.
+```
+*Expect:* ❌ vague/rambling; ✅ ~150 words, 3 numbered mechanisms, student-level.
+
+**② CTCF before → after** *(Anatomy)*
+```
+❌  explain op amps
+✅  [Context] I'm a 3rd-year EE student revising for an exam.
+    [Task] Explain how a non-inverting op-amp works.
+    [Constraints] Under 200 words, assume basic circuit theory, no heavy math.
+    [Format] 3 short paragraphs + one real-world analogy.
+```
+*Expect:* ✅ focused, exam-level, ends with an analogy. Then tweak one constraint
+("now under 80 words") live to show control.
+
+**③ Role effect — code review** *(Patterns & Logic)*
+```
+❌  find issues in this code
+✅  Act as a senior embedded-systems engineer. Review this C function for
+    memory-safety bugs. Output a table: Line | Issue | Severity | Fix.
+```
+*Expect:* ✅ line-level findings, severity, concrete fixes — not vague praise.
+
+**④ Chain-of-Thought — the tank problem** *(Patterns & Logic)*
+```
+A tank fills at 12 L/min and drains at 8 L/min. It starts at 50 L and holds
+max 200 L. Think step by step, show your reasoning, then tell me how long
+until it's full.
+```
+*Expect:* net 4 L/min; need 150 L more; 150 ÷ 4 = **37.5 min**. Run once WITHOUT
+"step by step" first — it often slips; the visible steps catch it.
+
+**⑤ Grounding — stop the hallucination** *(Ethics & Accuracy)*
+```
+Using ONLY the text below, answer the question. If the answer isn't in the
+text, say "Not stated in the source." Cite the exact sentence per claim.
+Text: [paste a short paragraph]
+Question: [ask something NOT in the paragraph]
+```
+*Expect:* it answers what's present **with citations** and replies
+**"Not stated in the source"** for what's missing — instead of inventing.
+
+**⑥ Text → table — the crowd-pleaser** *(Practical Application)*
+```
+Extract the text below into a Markdown table: Name | Role | Email | Deadline.
+Use "N/A" for missing fields.
+Text: [paste messy meeting notes]
+```
+*Expect:* clean table; missing cells = "N/A". Visibly turns chaos into usable data.
+
+**⑦ Flashcards — few-shot pattern** *(Practical Application)*
+```
+Turn each concept into a flashcard. Example —
+Input: 'Ohm's Law' → Q: 'State Ohm's Law' / A: 'V = I × R'.
+Now do these: [list your topics]
+```
+*Expect:* each topic becomes a Q/A pair copying the example format.
+
+---
+
 ## ✅ Pre-send checklist
 - [ ] Did I give **Context**?
 - [ ] Is the **Task** a single, clear ask?
